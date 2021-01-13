@@ -40,6 +40,11 @@ Tambien tiene el uso de generico para pasarse como parametro en la definicion de
 
 ## Promises
 Es un objeto que puede tal vez retornar un valor especificado en el futuro.
+Cuando se crea una promesa tiene 3 estados posibles:
+    - Pendiente
+    - Resuelta
+    - Rechazada
 
-Por ejemplo una Promise<number> en typescript seria una promesa que en base al resultado
-que pueda llegar a retornar podria devolver un tipo "number", error o la razon por la que no retorno el error.
+Por ejemplo una Promise<number> en typescript seria una promesa que en base a lo que suceda quien la resuelva,
+puede llegar a retornar valor de tipo "number" cuando su estado pase a Resuelta, o bien puede ser rechazada y 
+especificar por que razon fue asi.
