@@ -11,7 +11,9 @@ Crear en github:
 
 
 ## Config:
-Version de Node.JS: v12.19.0
+Version de Node.JS: 12.19.0
+Version de NPM: 6.14.8
+
 1. Crear un archivo .env que tenga 
     ```
         PORT = {valor}
