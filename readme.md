@@ -3,7 +3,7 @@ Crear en github:
 - [X] Una BD MongoDB y Mongoose como ORM
 - [X] Tests en jest (no se el alcance de Jest, pero si hace feature tests, que sean dos o tres features tests probando la API)
 - [X] Typescript implementado (aunque sea mínimo)
-- [] Usar algunas funciones con lodash
+- [X] Usar algunas funciones con lodash
 - [X] Un collection de Users (campos: id, name, lastName, age)
 - [X] Métodos API (2 y 2): un GET que liste los users, un GET que devuelva un usuario particular, un POST que inserte un nuevo user y un PUT que update un usuario existente
 - [X] Jest: que testee una inserción correcta, que testee una inserción incorrecta
