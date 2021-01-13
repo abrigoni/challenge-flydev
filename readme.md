@@ -11,6 +11,7 @@ Crear en github:
 
 
 ## Config:
+Version de Node.JS: v12.19.0
 1. Crear un archivo .env que tenga 
     ```
         PORT = {valor}
@@ -18,6 +19,19 @@ Crear en github:
         MONGO_NAME = {valor}
     ```
     Estas variables son seteadas en env.config.ts para su uso en desarrollo
+
+2. Para desarrollo ejecutar el script dev y desarrollar normalmente con hot reload
+    ```bash
+        npm run dev
+    ```
+3. Para usar la version de produccion primero armar el build con el script build:
+    ```bash
+        npm run build
+    ```
+   Luego
+    ```bash
+        npm start
+    ```
 
 
 ## Diferencias entre Javascript y Typescript
